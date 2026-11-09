@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Chatbot Automation Suite" parallel="none">
+    <test name="EFI Chatbot Tests">
+        <parameter name="active.framework" value="EFI"/>
+        <classes>
+            <class name="com.chatbot.ChatbotTest"/>
+        </classes>
+    </test>
+</suite>

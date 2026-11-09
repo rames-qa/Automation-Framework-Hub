@@ -1,0 +1,3 @@
+[submodule "chatbot-framework"]
+	path = chatbot-framework
+	url = https://github.com/RameshkumarK718/Chatbot-Automation-Framework.git

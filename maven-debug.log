@@ -1,0 +1,54 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.chatbot:ChatbotAutomationFramework >---------------
+[INFO] Building ChatbotAutomationFramework 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ChatbotAutomationFramework ---
+[INFO] Deleting C:\Users\rames\eclipse-workspace\AspireNXT Pvt Ltd\ChatbotAutomationFramework\target
+[INFO] 
+[INFO] --- dependency:3.6.1:properties (generate-agent-path) @ ChatbotAutomationFramework ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ ChatbotAutomationFramework ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ ChatbotAutomationFramework ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ ChatbotAutomationFramework ---
+[INFO] skip non existing resourceDirectory C:\Users\rames\eclipse-workspace\AspireNXT Pvt Ltd\ChatbotAutomationFramework\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ ChatbotAutomationFramework ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 14 source files with javac [debug release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ ChatbotAutomationFramework ---
+[INFO] Surefire report directory: C:\Users\rames\eclipse-workspace\AspireNXT Pvt Ltd\ChatbotAutomationFramework\target\surefire-reports
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.chatbot.ChatbotTest
+Configuring TestNG with: TestNG740Configurator
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+--> Credentials loaded successfully for user: sharanya@vedas.com
+Oct 19, 2026 1:08:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 19, 2026 1:08:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 155.0.8059.84. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+--> Opening application URL: https://devdedham.aptussoft.com/MemberAPI
+--> Conversational AI menu already active or skipped: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(normalize-space(.), 'Conversational AI')] | //span[contains(normalize-space(.), 'Conversational AI')] | //li[contains(normalize-space(.), 'Conversational AI')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.84, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\rames\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61486}, goog:processID: 35548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61486/devtoo..., se:cdpVersion: 155.0.8059.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80892aea395e5034aee4def5b1fe95dd
+--> Chatbot input ready.
+--> Reading sheet [Vedas]: Frameworks
+--> Successfully parsed 36 test cases for: Vedas
+--> Running test: TC-001 | Sheet: Frameworks | Question: what about Basketball?
+--> Failure diagnostics saved: target\diagnostics\html\runSingleQuestionTest_1792395655132.html
+--> Running test: TC-002 | Sheet: Frameworks | Question: in teature any plan to conduct basketball?
